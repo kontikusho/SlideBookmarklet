@@ -10,6 +10,10 @@
 [SlideHare][1]
 [1]:javascript:location.href=$('.twitter_player').attr('value'); "SlideShare"
 
+## SpeakerDeck
+[SpeakerDeck][2]
+[2]:javascript:location.href=$('iframe').attr('src'); "SpeakerDeck"
+
 # 今後の予定
 時間があったら他のサイトにも対応していくのはもちろんのこと、できればChrome拡張機能としてボタンつけるやつ作れたらいいなと思ってます。
 あとブックマークレットいっぱい登録するのはアレなので将来的に一つで済ませるとかやりたいです。

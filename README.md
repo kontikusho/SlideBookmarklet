@@ -1,5 +1,5 @@
 # SlideBookmarklet
-スライドシェアとかのスライド見るやつが画面幅に合わせるボタンとかないからブックマークレットでなんとかするやつ
+いろんなサイトでコンテンツを画面幅に合わせるブックマークレット集
 
 ブックマークレットの登録の仕方は下のやつを選択してドラッグ&ドロップで一応出来ます。
 
@@ -15,6 +15,12 @@ javascript:location.href=$('.twitter_player').attr('value');
 
 ```javascript
 javascript:location.href=$('iframe').attr('src');
+```
+
+## Youtube (New)
+
+```javascript
+javascript:location.href=document.querySelector('meta[property="og:video:url"]').content;
 ```
 
 # 今後の予定

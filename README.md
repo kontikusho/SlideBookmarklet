@@ -20,7 +20,7 @@ javascript:location.href=$('iframe').attr('src');
 ## Youtube (New)
 
 ```javascript
-javascript:location.href=document.querySelector('meta[property="og:video:url"]').content;
+javascript:location.href='/embed/'+yt.config_.VIDEO_ID;
 ```
 
 # 今後の予定

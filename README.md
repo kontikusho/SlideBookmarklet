@@ -7,8 +7,16 @@
 
 ## SlideShare用
 
+SlideShareから
+
 ```javascript
 javascript:location.href=$('.twitter_player').attr('value');
+```
+
+埋め込まれたコンテンツ用
+
+```javascript
+javascript:(function(){var slideList=document.querySelectorAll('iframe[src^="https://www.slideshare.net"]');var slides=Array.apply(this,slideList);slides.forEach(function(slide){var link=document.createElement('a');link.text='画面幅に合わせて開く';link.href=slide.src;link.target='_blank';slide.insertAdjacentElement('afterEnd',link);slide.insertAdjacentElement('afterEnd',document.createElement('br'));});})();
 ```
 
 ## SpeakerDeck
